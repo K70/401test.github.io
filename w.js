@@ -7,7 +7,7 @@ $(document).ready(function () {
 
   $('form').submit(function() {
     var city = $(this).serializeArray()[0].value;
-    $.get('http://api.openweathermap.org/data/2.5/weather?q='
+    $.get('https://api.openweathermap.org/data/2.5/weather?q='
     + city + '&units=imperial'+ '&appid=' + apiKey, function(data) {
       console.log(data);
       var temp = data.main.temp;
