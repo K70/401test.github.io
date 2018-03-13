@@ -1,0 +1,29 @@
+* {
+  font-family: arial;
+  font-weight: bold;
+}
+
+#container {
+  width: 100%;
+  height: 950px;
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/1/16/Appearance_of_sky_for_weather_forecast%2C_Dhaka%2C_Bangladesh.JPG');
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 500px;
+  padding-left: 20px;
+}
+
+#container h1 {
+  margin: auto;
+  width: 50%
+}
+
+#container form {
+  margin: auto;
+  width: 50%;
+}
+
+#container p {
+  font-weight: bold;
+  font-size: 60px;
+}
